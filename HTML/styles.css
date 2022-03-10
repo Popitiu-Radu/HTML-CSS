@@ -1,0 +1,40 @@
+body{background-color: aquamarine;}
+
+title {border: 2px solid;}
+
+h1{
+font-size: 150%;
+color: black;
+font:oblique
+}
+
+h2{color: red;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+img{ width: 30%;
+height: 30%; 
+position: relative;
+animation: mymove 10s infinite;
+
+}
+@keyframes mymove {
+    from {left: -5000px;}
+    to {left: 500px;
+    animation-delay :5s;}
+}
+h3{font-size: 200%;
+color:green}
+
+h4{font-size : 300%;
+text-align: center;
+text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+padding-top: 50px;
+padding-right: 30px;
+padding-bottom: 50px;
+padding-left: 80px;}
+
+p{ font-size:200%;
+   left : 500px;
+   top: 500px; 
+   bottom : 500px;
+}
